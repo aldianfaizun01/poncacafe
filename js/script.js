@@ -14,6 +14,25 @@ document.addEventListener('click', function(e){
     }
 });
 
+// refresh page
  if (window.location.hash) {
     window.location.replace(window.location.pathname);
   }
+
+// button scroll
+const scrollUpBtn = document.getElementById("scrollUpBtn");
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 200) {
+      scrollUpBtn.classList.add("show"); // tampilkan tombol
+    } else {
+      scrollUpBtn.classList.remove("show"); // sembunyikan tombol
+    }
+  });
+
+  scrollUpBtn.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
