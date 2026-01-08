@@ -13,3 +13,11 @@ document.addEventListener('click', function(e){
         navbarNav.classList.remove('active');
     }
 });
+
+  if (window.location.hash) {
+    history.replaceState(
+      null,
+      "",
+      window.location.pathname + window.location.search
+    );
+  }
