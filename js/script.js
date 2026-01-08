@@ -14,10 +14,6 @@ document.addEventListener('click', function(e){
     }
 });
 
-  if (window.location.hash) {
-    history.replaceState(
-      null,
-      "",
-      window.location.pathname + window.location.search
-    );
+ if (window.location.hash) {
+    window.location.replace(window.location.pathname);
   }
