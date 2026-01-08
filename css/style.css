@@ -194,6 +194,22 @@ body {
   line-height: 1.6;
 }
 
+.about .row .content h2 {
+  text-align: left;
+  color: #000000;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  margin-top: 6rem;
+}
+
+.about .row .content p {
+  text-align: left;
+}
+
+.about .row .content p .timeops {
+  font-weight: 700;
+}
+
 .about .row {
   flex-wrap: wrap;
 }
@@ -382,7 +398,7 @@ footer .credit a {
 
 
 
-/* Media Queries */
+/* ======================================= Media Queries */
 /* Laptop */
 @media(max-width: 1366px) {
   html {
@@ -455,6 +471,8 @@ footer .credit a {
   .about .row .content p {
     font-size: 1.6rem;
   }
+
+
 
   .findus .row {
     flex-wrap: wrap;
