@@ -426,6 +426,12 @@ footer .credit a {
   .findus .row form {
     padding-top: 0;
   }
+
+  .about,
+  .menu,
+  .findus {
+    padding: 8rem 7% 1.4rem;
+  }
 }
 
 /* Phone */
