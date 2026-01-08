@@ -427,16 +427,18 @@ footer .credit a {
     padding-top: 0;
   }
 
-  .about,
-  .menu,
-  .findus {
-    padding: 8rem 7% 10rem;
-  }
+
 }
 
 /* Phone */
 @media(max-width: 450px) {
   html {
     font-size: 50%;
+  }
+
+  .about,
+  .menu,
+  .findus {
+    padding: 8rem 7% 10rem;
   }
 }
