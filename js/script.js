@@ -39,21 +39,23 @@ const scrollUpBtn = document.getElementById("scrollUpBtn");
 
 
   document.addEventListener("DOMContentLoaded", function () {
-  // Ambil semua tombol dan menu-card
   const buttons = document.querySelectorAll(".category-btn");
   const menuCards = document.querySelectorAll(".menu-card");
 
   buttons.forEach(button => {
     button.addEventListener("click", () => {
-      const target = button.dataset.target; // ambil id menu-card tujuan
+      const target = button.dataset.target;
 
-      // Reset semua tombol & menu
       buttons.forEach(btn => btn.classList.remove("active"));
       menuCards.forEach(card => card.classList.remove("show"));
 
-      // Aktifkan yang diklik
       button.classList.add("active");
-      document.getElementById(target).classList.add("show");
+
+      const targetCard = document.getElementById(target);
+      if (targetCard) {
+        targetCard.classList.add("show");
+      }
     });
   });
 });
+
