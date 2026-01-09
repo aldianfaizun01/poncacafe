@@ -1,0 +1,12 @@
+.menu-card {
+    display: none;
+}
+
+.menu-card.show {
+    display: block;
+}
+
+.category-btn.active {
+    background: brown;
+    color: white;
+}

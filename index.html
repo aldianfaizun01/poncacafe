@@ -32,10 +32,15 @@
       </div>
 
       <div class="navbar-extra">
-        <a href="#" id="search"><i><i data-feather="search"></i> </i></a>
-        <a href="#" id="shopping-cart"><i><i data-feather="shopping-cart"></i> </i></a>
-        <a href="#" id="cafe-menu"><i><i data-feather="menu"></i> </i></a>
-        
+        <a href="#" id="search"
+          ><i><i data-feather="search"></i> </i
+        ></a>
+        <a href="#" id="shopping-cart"
+          ><i><i data-feather="shopping-cart"></i> </i
+        ></a>
+        <a href="#" id="cafe-menu"
+          ><i><i data-feather="menu"></i> </i
+        ></a>
       </div>
     </nav>
     <!-- Navbar End -->
@@ -43,8 +48,8 @@
     <!-- hero section start -->
     <section class="hero" id="home">
       <main class="content">
-        <h1> <span>Lets Drink</span> Our Coffee!</h1>
-        <p> Behind every successful person is a substantial amount of coffee </p>
+        <h1><span>Lets Drink</span> Our Coffee!</h1>
+        <p>Behind every successful person is a substantial amount of coffee</p>
         <a href="#" class="cta">Order Now</a>
       </main>
     </section>
@@ -56,15 +61,22 @@
 
       <div class="row">
         <div class="about-img">
-          <img src="img/aboutus.jpg" alt="about us">
+          <img src="img/aboutus.jpg" alt="about us" />
         </div>
         <div class="content">
           <h3>Why choose our coffee</h3>
-          <p>Our coffee comes directly from coffee farmers and quality is our top priority. Enjoy!</p>
+          <p>
+            Our coffee comes directly from coffee farmers and quality is our top
+            priority. Enjoy!
+          </p>
           <div>
             <h2>Operational Hours</h2>
-            <p> Saturday & Sunday <span class="timeops">6:00 AM - 12:00 PM</span></p>
-            <p> Monday - Friday <span class="timeops">8:00 AM - 12:00 PM</span></p>
+            <p>
+              Saturday & Sunday <span class="timeops">6:00 AM - 12:00 PM</span>
+            </p>
+            <p>
+              Monday - Friday <span class="timeops">8:00 AM - 12:00 PM</span>
+            </p>
           </div>
         </div>
       </div>
@@ -72,66 +84,131 @@
     <!-- tentang kami end -->
 
     <!-- menu section start -->
-     <section id="menu" class="menu">
+    <section id="menu" class="menu">
       <h2>Our<span> Menu</span></h2>
-      <p>Here are some of the menus we provide. Please choose from the best ones.</p>
-      
+      <p>
+        Here are some of the menus we provide. Please choose from the best ones.
+      </p>
+
       <div class="row">
-        <div class="menu-card">
-          <img src="img/menu1.jpg" alt="menu1" class="menu-card-img">
-          <h3 class="menu-card-title">Espresso</h3>
-          <p class="menu-card-price">IDR 15,000</p>
+        <button class="category-btn active" data-target="coffee">Coffee</button>
+        <button class="category-btn" data-target="non-coffee">Non Kopi</button>
+
+        <div class="menu-card show" id="coffee">
+          <div class="menu-items">
+            <img src="img/menu1.jpg" alt="menu1" class="menu-card-img" />
+            <h3 class="menu-card-title">Espresso</h3>
+            <p class="menu-card-price">IDR 15,000</p>
+          </div>
+          <div class="menu-items">
+            <img src="img/menu1.jpg" alt="menu1" class="menu-card-img" />
+            <h3 class="menu-card-title">Espresso</h3>
+            <p class="menu-card-price">IDR 15,000</p>
+          </div>
+          <div class="menu-items">
+            <img src="img/menu1.jpg" alt="menu1" class="menu-card-img" />
+            <h3 class="menu-card-title">Espresso</h3>
+            <p class="menu-card-price">IDR 15,000</p>
+          </div>
+          <div class="menu-items">
+            <img src="img/menu1.jpg" alt="menu1" class="menu-card-img" />
+            <h3 class="menu-card-title">Espresso</h3>
+            <p class="menu-card-price">IDR 15,000</p>
+          </div>
+          <div class="menu-items">
+            <img src="img/menu1.jpg" alt="menu1" class="menu-card-img" />
+            <h3 class="menu-card-title">Espresso</h3>
+            <p class="menu-card-price">IDR 15,000</p>
+          </div>
+          <div class="menu-items">
+            <img src="img/menu1.jpg" alt="menu1" class="menu-card-img" />
+            <h3 class="menu-card-title">Espresso</h3>
+            <p class="menu-card-price">IDR 15,000</p>
+          </div>
+          <div class="menu-items">
+            <img src="img/menu1.jpg" alt="menu1" class="menu-card-img" />
+            <h3 class="menu-card-title">Espresso</h3>
+            <p class="menu-card-price">IDR 15,000</p>
+          </div>
         </div>
-        <div class="menu-card">
-          <img src="img/menu2.jpg" alt="menu2" class="menu-card-img">
-          <h3 class="menu-card-title">Americano</h3>
-          <p class="menu-card-price">IDR 15,000</p>
-        </div>
-        <div class="menu-card">
-          <img src="img/menu3.jpg" alt="menu3" class="menu-card-img">
-          <h3 class="menu-card-title">Cappucino</h3>
-          <p class="menu-card-price">IDR 15,000</p>
-        </div>
-        <div class="menu-card">
-          <img src="img/menu4.jpg" alt="menu4" class="menu-card-img">
-          <h3 class="menu-card-title">Brown Sugar</h3>
-          <p class="menu-card-price">IDR 15,000</p>
+
+        <div class="menu-card" id="non-coffee">
+          <div class="menu-items">
+            <img src="img/menu3.jpg" alt="menu1" class="menu-card-img" />
+            <h3 class="menu-card-title">Espresso</h3>
+            <p class="menu-card-price">IDR 15,000</p>
+          </div>
+          <div class="menu-items">
+            <img src="img/menu3.jpg" alt="menu1" class="menu-card-img" />
+            <h3 class="menu-card-title">Espresso</h3>
+            <p class="menu-card-price">IDR 15,000</p>
+          </div>
+          <div class="menu-items">
+            <img src="img/menu3.jpg" alt="menu1" class="menu-card-img" />
+            <h3 class="menu-card-title">Espresso</h3>
+            <p class="menu-card-price">IDR 15,000</p>
+          </div>
+          <div class="menu-items">
+            <img src="img/menu3.jpg" alt="menu1" class="menu-card-img" />
+            <h3 class="menu-card-title">Espresso</h3>
+            <p class="menu-card-price">IDR 15,000</p>
+          </div>
+          <div class="menu-items">
+            <img src="img/menu3.jpg" alt="menu1" class="menu-card-img" />
+            <h3 class="menu-card-title">Espresso</h3>
+            <p class="menu-card-price">IDR 15,000</p>
+          </div>
+          <div class="menu-items">
+            <img src="img/menu3.jpg" alt="menu1" class="menu-card-img" />
+            <h3 class="menu-card-title">Espresso</h3>
+            <p class="menu-card-price">IDR 15,000</p>
+          </div>
+          <div class="menu-items">
+            <img src="img/menu3.jpg" alt="menu1" class="menu-card-img" />
+            <h3 class="menu-card-title">Espresso</h3>
+            <p class="menu-card-price">IDR 15,000</p>
+          </div>
         </div>
       </div>
-    
     </section>
     <!-- menu section end -->
 
     <!-- Findus section start -->
-     <section id="findus" class="findus">
+    <section id="findus" class="findus">
       <h2>Find<span> Us</span></h2>
       <p>our location is very easy to find.</p>
       <p>Lets check it out!</p>
       <div class="row">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15817.10084441618!2d112.69071734748552!3d-7.653528677802729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7d900770f4485%3A0x16d7952aaa4eef3a!2sPonca%20Coffee!5e0!3m2!1sen!2sid!4v1767759228801!5m2!1sen!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15817.10084441618!2d112.69071734748552!3d-7.653528677802729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7d900770f4485%3A0x16d7952aaa4eef3a!2sPonca%20Coffee!5e0!3m2!1sen!2sid!4v1767759228801!5m2!1sen!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
         <form action="">
           <div class="input-group">
             <i class="input-icon" data-feather="user"></i>
-            <input type="text" placeholder="name">
+            <input type="text" placeholder="name" />
           </div>
           <div class="input-group">
             <i class="input-icon" data-feather="mail"></i>
-            <input type="text" placeholder="email">
+            <input type="text" placeholder="email" />
           </div>
           <div class="input-group">
             <i class="input-icon" data-feather="phone"></i>
-            <input type="text" placeholder="phone number">
+            <input type="text" placeholder="phone number" />
           </div>
           <div class="btn-wrapper">
             <button type="submit" class="btn-form">Submit</button>
           </div>
         </form>
       </div>
-     </section>
-     <!-- Findus section end -->
+    </section>
+    <!-- Findus section end -->
 
     <!-- Footer start -->
-     <footer>
+    <footer>
       <div class="social">
         <a href="#"><i data-feather="instagram"></i></a>
         <a href="#"><i data-feather="twitter"></i></a>
@@ -148,22 +225,19 @@
       <div class="credit">
         <p>Created By <a href="">Paijun</a>. | &copy; 2025</p>
       </div>
-     </footer>
+    </footer>
     <!-- Footer end -->
 
     <!-- Button Scroll -->
-    <button id="scrollUpBtn" title="Ke atas"><i><i data-feather="arrow-up"></i> </i></button>
-
+    <button id="scrollUpBtn" title="Ke atas">
+      <i><i data-feather="arrow-up"></i> </i>
+    </button>
 
     <!-- Feather Icons -->
     <script>
       feather.replace();
     </script>
 
-    <script src="js/script.js">
-
-    
-
-    </script>
+    <script src="js/script.js"></script>
   </body>
 </html>

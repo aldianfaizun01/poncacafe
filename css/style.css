@@ -214,6 +214,35 @@ body {
   flex-wrap: wrap;
 }
 
+/* .menu-wrapper {
+  width: 100%;
+  margin: auto;
+} */
+
+/* Tombol kategori */
+.category-btn {
+  width: 100%;
+  padding: 14px;
+  margin-top: 10px;
+  background: #f5f5f5;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+}
+
+.category-btn.active {
+  background: #007bff;
+  color: #fff;
+}
+
+
+
+
+
+
+
 /* menu section */
 /* .menu {
   padding: 1rem 7% 1.4rem;
@@ -244,6 +273,17 @@ body {
 }
 
 .menu .row .menu-card {
+  display: none;
+}
+
+.menu .row .menu-card.show {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+.menu .row .menu-card .menu-items {
   text-align: center;
   padding-bottom: 1rem;
   margin: auto;
@@ -259,8 +299,43 @@ body {
 .menu .row .menu-card .menu-card-title {
   color: #000000;
   font-size: 2.2rem;
-  margin: 1rem auto 0.5rem;
+  margin: 1 rem auto 0.5rem;
 }
+
+/* MENU BARUUUUUUUUUUUUUUUU */
+/* .menu .menu-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+.menu .menu-wrapper .menu-card.show .menu-items {
+  text-align: center;
+  padding-bottom: 1rem;
+  margin: auto;
+  display: block;
+}
+
+
+
+.menu .menu-wrapper .menu-card.show {
+  display: none;
+}
+
+
+.menu .menu-wrapper .menu-card img {
+  border-radius: 4%;
+  width: 15rem;
+  height: 15rem;
+}
+
+.menu .menu-wrapper .menu-card-title {
+  text-align: center;
+  color: #000000;
+  font-size: 2.2rem;
+  margin: 1 rem auto 0.5rem;
+} */
 
 /* find us section */
 .findus .row {
