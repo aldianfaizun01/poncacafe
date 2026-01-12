@@ -302,9 +302,10 @@ body {
 }
 
 .menu .row .menu-card .menu-items {
-  text-align: center;
+  text-align: left;
   padding-bottom: 1rem;
   margin: auto;
+  width: 15rem;
 }
 
 .menu .row .menu-card img {
@@ -315,9 +316,27 @@ body {
 }
 
 .menu .row .menu-card .menu-card-title {
+  text-align: left;
   color: #000000;
   font-size: 2.2rem;
   margin: 1 rem auto 0.5rem;
+}
+
+.menu .row .menu-card .menu-card-price {
+  text-align: left;
+  color: #175000;
+  font-weight: 600;
+}
+
+.menu .row .menu-card .menu-card-spec {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.5rem;
+  line-height: 1.4;
+  text-align: left;
+  /* teks tetap di tengah */
+  word-wrap: break-word;
+  /* teks panjang akan wrap, tidak melebar */
 }
 
 
