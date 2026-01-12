@@ -446,6 +446,7 @@ footer .credit a {
   /* agar tidak bisa diklik saat hidden */
 }
 
+
 #scrollUpBtn.show {
   opacity: 1;
   pointer-events: auto;
@@ -455,6 +456,57 @@ footer .credit a {
 #scrollUpBtn:hover {
   background-color: #555;
 }
+
+/* Container pagination */
+/* Container pagination */
+#pagination {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+/* Tombol pagination */
+#pagination button {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  color: #333;
+  padding: 0.5rem 0.9rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+
+  /* TRANSISI SMOOTH */
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+/* Hover tombol */
+#pagination button:hover {
+  background-color: #333;
+  color: #fff;
+  transform: translateY(-2px) scale(1.05);
+  /* naik & sedikit membesar */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Tombol aktif */
+#pagination button.active {
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+  pointer-events: none;
+  /* tombol aktif tidak bisa diklik */
+  transform: scale(1.05);
+  /* sedikit membesar */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
 
 
 
