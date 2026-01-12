@@ -581,8 +581,7 @@ footer .credit a {
     font-size: 50%;
   }
 
-  .about,
-  {
-  padding: 10rem 7% 28rem;
-}
+  .about {
+    padding: 8rem 7% 28rem;
+  }
 }
